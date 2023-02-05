@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <title>Stacc kodekonkurranse - 7.februar</title>
+    <meta charset="UTf-8">
+    <link rel="stylesheet" type="text/css" href="stacc_koding.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding"> Strømpris </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="stacc_koding.html" class="nav-link">Hjem</a>
+                </li>
+                <li class="nav-item">
+                    <a href="stacc_koding_sammenlign1.html" class="nav-link"> Strømleverandører</a>
+                </li>
+                <li class="nav-item">
+                    <a href="stacc_koding_10_tips.html" class="nav-link">Tips og triks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="stacc_koding__power_provider.html" class="nav-link"> Mitt strømforbruk</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <h1 id="tittel">Mitt strømforbruk</h1>
+        <p id="box-hjemside">
+            Her får du en full oversikft over strømforbruket i løpet av 500 timer for en husstand.
+            Som man kan se på grafen varierer strømforbruket mye i løpet av en måned. Når forbruket varierer
+            mye, kan det vært lurt å planlegge strømforbruket.❤️❤️❤️
+        </p>
+
+        <hr class="hr-line">
+
+        <h3 id="tittel">Oversikt over gjennomsnittlig kwh per time per dag:</h3>
+        <p id="box-hjemside">
+            I vår utregning går vi ut ifra at prisen er 0.5kr for spotpris og fastpris hver time. (data levert fra Stacc).  
+        </p>
+    </div>
+
+    <div id="myPlot"></div>
+
+    <div>
+        <h3 id="tittel"> Hvilken strømavtale lønner seg?</h3>
+        <p id="box-hjemside">
+            Ifølge våre beregninger må husstanden betale: 
+            <br>
+            Spotpris: 798kr 
+            <br> 
+            Fastpris: 798kr
+            <br>
+            + nettleie
+            <br><br>
+            Dataene viser at spotpris og fastpris gir samme beløp. I virkeligheten vil ikke dette være tilfellet. 
+            En spotpris vil følge markedet og vil derfor stige eller synke i pris, mens fastpris vil være et fast beløp
+            (ofte litt dyrere per kwh) og gi mer trygghet og sikkerhet i budsjettet. I fastpris er det kun forbruket per time som
+            avgjør hvor mye kostnaden blir, mens ved spotpris er det både forbruket og den reelle prisen som avgjør hva prisen blir.
+            (Vi påtar oss ingen økonomisk ansvar, og forbeholder at utregningen kan være unøyaktig.😉)
+       </p><br>
+    </div>
+    
+    <script src="stacc_koding.js"></script>
+
+    <div id="footer">
+        <h4> Laget av: </h4>
+        <p> Hedda Fløtre Laupstad & Amanda Min Skaugerud </p>
+    </div>
+</body>
+</html>
