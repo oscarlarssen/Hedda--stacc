@@ -68,7 +68,35 @@
             (Vi påtar oss ingen økonomisk ansvar, og forbeholder at utregningen kan være unøyaktig.😉)
        </p><br>
     </div>
-    
+
+    <div id="test_meny">
+        <h1> Strømkalkulator</h1>
+        <h4>Her kan du regne ut og sjekke ditt strømforbruk:</h4>
+        <br>
+        <p>Strømforbruk pr. måned i kwh 
+            <input type="number" id="stromforbruk">
+        </p>
+        <br>
+        <p> Pris, kr per kwh
+            <input type="number" id="pris">
+        </p>
+        <br>
+        <p>Nettleie 
+            <input type="number" id="nettleie">
+        </p>
+        <br>
+        <label for="prismodell">Velg en prismodell:</label>
+        <select name="prismodell" id="prismodell">
+            <option value="spot_maned">Spot måned</option>
+            <option value="fast">Fast pris</option>
+        </select>
+        <br><br>
+        <button id="sjekk" type="submit" value="none">Sjekk strømmen</button>
+        <p id="svar"> </p>
+        <br>
+    </div>
+
+    <script src="stacc_koding_stromkalkulator.js"></script>
     <script src="stacc_koding.js"></script>
 
     <div id="footer">
