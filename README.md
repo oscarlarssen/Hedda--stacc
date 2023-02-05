@@ -9,5 +9,5 @@ Nettsiden inneholder en hjemside, strømleverandør, tips og triks og mitt strø
   Mitt strømforbruk inneholder en graf som viser gjennomsnittlig forbruk av kwh per time i 500 timer. Samt en strømkalkulator som kan regne ut spotpris og fastpris.
 
 Laget av:
-Hedda Fløtre Laupstad: Bachelor i Informasjonsvitenskap (UIB)
+Hedda Fløtre Laupstad: Bachelor i Informasjonsvitenskap (UIB) &
 Amanda Min Skaugerud: Bachelor i Kognitiv vitenskap (UIB)
